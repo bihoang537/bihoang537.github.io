@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Tenor+Sans&display=swap');
+/*
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Tenor Sans', sans-serif;
+*/
+
+* {
+  box-sizing: border-box;
+}
+#container{
+  background-color: #e3e7e7;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Image/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    
+}
+
+header img {
+    width: 220px;
+    margin-right: -35px; 
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+    font-size: 68px;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #f2f2f2;
+}
+
+h1{
+  font-size: 50px;
+  font-family: 'Tenor Sans', sans-serif;
+  text-align: center;
+  color:#4f9ccb;
+}
+h2{
+  font-size: 40px;
+  font-family: 'Tenor Sans', sans-serif;
+  
+}
+h3{
+  font-size: 25px;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+.link, p, span{
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 18px;
+}
+nav {
+    overflow: hidden;
+    background-color: #00203FFF;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+nav a {
+    float: left;
+    color: #ADEFD1FF;
+    padding: 10px 12px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+nav a:hover {
+    background-color: #C7D3D4FF;
+    color: #603F83FF;
+  }
+  
+nav a.active {
+    background-color:#9CC3D5FF;
+    color:#0063B2FF;
+  }
+nav a.right-align{
+    float: right;
+}
+.fas {
+    color: #b7c118;
+}
+main{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: auto;
+}
+main section{
+  flex: 1 1 50%;
+  padding: 20px;
+  padding-top: 60px;
+  border: 1px solid gray;
+  border-top: none;
+  text-align: center;
+}
+main section p{
+  text-align: justify;
+}
+video{
+  max-width: 90%;
+  min-width: auto;
+}
+iframe{
+  width: 800px;
+  height: 450px;
+}
+img{
+  max-height: 500px;
+  width: 400px;
+}
+
+footer p {
+  font-family: 'Tenor Sans', sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  float: right;
+}
